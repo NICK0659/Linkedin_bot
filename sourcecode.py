@@ -10,6 +10,7 @@ from selenium.webdriver.common.keys import Keys
 opts=Options()
 
 driver= webdriver.Chrome(options=opts, executable_path='chromedriver')
+
 # function to ensure all key data fields have a value 
 def validate_field(field):
     #if field is present pass if field:
